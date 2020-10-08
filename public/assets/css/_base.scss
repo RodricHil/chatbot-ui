@@ -1,0 +1,45 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "myArea myArea";
+  box-shadow: 0 2px 5px 3px #d6d4d4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.main-header {
+  width: 100%;
+  height: 10vh;
+  box-shadow: 0 2px 4px 0 #e6e6e6d4;
+  grid-area: myArea;
+  position: relative;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eaf9f8;
+  border-right: 1px solid #eaf9f8;
+  width: 100%;
+}
+
+.container {
+  height: 90vh;
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  background: #ffffff;
+  height: 10vh;
+  box-shadow: 1px -2px 4px 0px #e6e6e6d4;
+  position: relative;
+}
+
+@media (max-width: 500px) {
+  .main {
+    display: unset;
+  }
+}

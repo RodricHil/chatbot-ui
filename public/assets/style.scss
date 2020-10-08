@@ -1,0 +1,30 @@
+@import "./css/_base.scss";
+@import "./css/_bot.scss";
+@import "./css/_botui-theme-default";
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
